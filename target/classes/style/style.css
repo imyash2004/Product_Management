@@ -1,0 +1,26 @@
+*{
+	margin:opx;
+	padding:0px;
+	box-sizing: border-box;
+}
+.background{
+	min-height: 100vh;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	position:relative;
+}
+.background::before{
+	content:' ';
+	background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Flaptop%2F&psig=AOvVaw0ehsn5Npiooz-cW0zoMpOD&ust=1691253447493000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOCzip24w4ADFQAAAAAdAAAAABAE);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	background-color:orange;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left:0;
+	right:0;
+	opacity: 0.35;
+}
